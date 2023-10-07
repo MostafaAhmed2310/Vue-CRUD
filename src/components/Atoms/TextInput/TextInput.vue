@@ -9,11 +9,10 @@ export default {
         type: String,
         name: String,
         id: String,
-        value2: String
     },
     data(){
         return{
-            value: this.value2
+            
         }
     },
     methods:{

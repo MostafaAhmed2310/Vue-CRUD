@@ -1,0 +1,1 @@
+export const BaseUrl = "https://api.slingacademy.com/v1/sample-data";

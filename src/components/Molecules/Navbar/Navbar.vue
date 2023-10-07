@@ -34,18 +34,14 @@
             </form>
             </div>
         </div>
-        <TextInput :value2="value2"/>
-        {{ value2 }}
     </nav>
 </template>
 
 <script>
-import TextInput from '@/components/Atoms/TextInput/TextInput.vue';
-
 export default {
     name: 'Nav-bar',
     components:{
-        TextInput
+        
     },
     props: {
         

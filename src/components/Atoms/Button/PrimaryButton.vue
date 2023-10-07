@@ -1,8 +1,9 @@
 <template>
     <button 
         :type="type" 
-        :class="calssBtn"
+        :class="classBtn"
     >
+        <i :class="icon"></i>
         {{btnText}}
     </button>
 </template>
@@ -11,9 +12,10 @@
 export default {
     name: 'PrimaryButton',
     props: {
-        calssBtn:String,
+        classBtn:String,
         btnText:String,
-        type:String
+        type:String,
+        icon: String
     },
     data(){
         return{}
@@ -28,5 +30,7 @@ export default {
 </script>
 
 <style scoped>
-
+.m-7{
+    margin: 0 7px;
+}
 </style>
